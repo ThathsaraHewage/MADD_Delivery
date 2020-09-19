@@ -2,4 +2,12 @@
     <string name="app_name">UsingStrings</string>
     <string name="Msg1" translatable="false">Here , I am the text message one</string>
     <string name="Msg2">Here , I am the text message two</string>
+    <string name="password">password</string>
+    <string name="Username">Username</string>
+    <string name="Add">Add</string>
+    <string name="SelectAll">SelectAll</string>
+    <string name="signup">signup</string>
+    <string name="Delete">Delete</string>
+    <string name="Update">Update</string>
+    <string name="ViewOrders">View Orders</string>
 </resources>
