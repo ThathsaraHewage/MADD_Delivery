@@ -23,8 +23,11 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_width="381dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
             android:background="#FFFFFF"
             android:fontFamily="@font/archivo_black"
             android:inputType="none"
@@ -42,29 +45,112 @@
                 android:id="@+id/editTextTextPersonName11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
                 android:ems="10"
+                android:hint="Name"
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName12"
+                android:id="@+id/editTextTextPostalAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
                 android:ems="10"
+                android:hint="Delivery Address"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/editTextPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:hint="Items"
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName13"
+                android:id="@+id/editTextTextPersonName2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
                 android:ems="10"
+                android:hint="Total Price"
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName14"
+                android:id="@+id/editTextDate3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="500px"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:hint="Ordered Date"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/editTextDate4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="500px"
+                android:ems="10"
+                android:hint="Delivery Date"
+                android:inputType="date" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#AEFF0000"
+                    android:text="Ordered By"
+                    android:textColor="#FFFFFF"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
+            </LinearLayout>
+
+
         </LinearLayout>
 
     </LinearLayout>
